@@ -1,8 +1,7 @@
 
 const form = document.getElementById("formulario");
-
 const postagens = document.getElementById("postagens")
-const autorDeTeste = "nomeAutor";
+const autorDeTeste = localStorage.getItem("autor");
 const imagemDoguinho = "img/doguinho.jpg"
 
 
