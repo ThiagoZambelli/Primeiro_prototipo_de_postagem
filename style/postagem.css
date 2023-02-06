@@ -1,4 +1,5 @@
 body{
+    font-size: 16px;
     padding: 2rem;
 }
 .postagens{
@@ -24,6 +25,16 @@ body{
 .postagem-cabecalho__infos{
     grid-template-rows: 30% 60%;
 }
+.postagem-autor{
+    font-size: 1.2rem;
+}
 .postgem-titulo{
     margin: 0 auto;
+    font-size: 1.5rem;
+    font-weight: 500;
+    align-self: flex-end;
+}
+.postagem-corpo{
+    margin-top: 2rem;
+    justify-content: space-around;
 }
